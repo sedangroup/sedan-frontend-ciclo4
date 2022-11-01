@@ -1,7 +1,10 @@
+import Links from "../../components/login/Links";
+
 function Home() {
     return (
-        <div>
-            <h1>home del cliente</h1>
+        <div className="">
+            <h1 className="bg-amber-300 font-bold text-blue-400">homae del cliente</h1>
+            <Links/>
         </div>
     )
 }
