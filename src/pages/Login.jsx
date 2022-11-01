@@ -9,7 +9,7 @@ function Login() {
           href="#"
           className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
         >
-          <img className="w-8 h-8 mr-2" src="src\assets\user.png" alt="logo" />
+          <img className="w-8 h-8 mr-2" src="user.png" alt="logo" />
           Sistema GEUV
         </a>
         <Formulario />

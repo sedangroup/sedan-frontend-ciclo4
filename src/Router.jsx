@@ -11,7 +11,7 @@ function Router() {
         <Route path="/" element={<Login/>}/>
         
         <Route path="/administrador/">
-            <Route path="home" element={<h1>hola admin</h1>}/>
+            <Route path="home" element={<AdminHome/>}/>
             <Route path="graficos" element={<h1>hola sedan</h1>}/>
             <Route path="perfil" element={<h1>hola sedan</h1>}/>
         </Route>
