@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 function Aside() {
   const [display, setDisplay] = useState(false);
   return (
-    <aside className="flex items-center h-screen  md:w-64 lg:w-64 bg-gray-900 p-3" aria-label="Sidebar">
+    <aside
+      className="flex items-center h-screen  md:w-64 lg:w-64 bg-gray-900 p-3 absolute md:relative"
+      aria-label="Sidebar"
+    >
       <div className="overflow-y-auto  w-full bg-gray-50 rounded dark:bg-gray-800  ">
         <ul className="space-y-2">
           <li>
-            <div
-              className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
-            >
+            <div className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
               <svg
                 aria-hidden="true"
                 className="w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
@@ -174,7 +175,9 @@ function Aside() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="flex-1 ml-3 whitespace-nowrap">Cerrar Sesion</span>
+              <span className="flex-1 ml-3 whitespace-nowrap">
+                Cerrar Sesion
+              </span>
             </Link>
           </li>
         </ul>
