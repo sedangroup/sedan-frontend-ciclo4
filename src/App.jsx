@@ -6,7 +6,7 @@ import { createContext,useState } from "react";
 export const AppContext = createContext();
 
 function App() {
-  const [display, setdisplay] = useState(false);
+  const [display, setdisplay] = useState(true);
   return (
     <AppContext.Provider value={{display,setdisplay}}>
       <Router />

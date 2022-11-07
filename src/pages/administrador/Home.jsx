@@ -13,7 +13,7 @@ function Home() {
             <MultiaxisChar />
           </div>
         </div>
-        <div className="grid grid-cols-1  grid-rows-3 md:grid-cols-3 md:grid-rows-1 place-content-center ali w-full h-48 max-h-52 bg-slate-500 border-t-amber-800 dark:bg-gray-900 mt-5 p-5 gap-2 rounded">
+        <div className="grid grid-cols-1   grid-rows-3  md:grid-cols-3 md:grid-rows-1 place-content-center ali w-full h-auto md:h-48 lg:h-52  bg-slate-500 border-t-amber-800 dark:bg-gray-900 mt-5 p-5 gap-2 rounded">
           <div className="rounded  p-1 bg-slate-50">
             <BarChar />
           </div>
