@@ -20,13 +20,13 @@ function Home() {
           <div className=" rounded p-1 bg-slate-50">
             <AreaChar />
           </div>
-          <div className="rounded w-full h-full bg-slate-50 ">
+          <div className="rounded  bg-slate-50 ">
             <RatedProductos/>
           </div>
         </div>
         <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 bg-slate-300 mt-5 rounded p-5 gap-4">
           <div className="bg-slate-50 h-60 rounded">
-            
+            1
           </div>
           <div className="bg-slate-50 h-60 rounded">2</div>
         </div>

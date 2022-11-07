@@ -1,0 +1,21 @@
+.rate {
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 0 10px;
+}
+
+.star {
+    
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    font-size:1.3rem;
+    color:#ccc;
+    content: '★ ';
+}
+.rate > div:before {
+    content: '★ ';
+    color: #c59b08;
+}
+
