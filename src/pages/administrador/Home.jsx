@@ -3,6 +3,7 @@ import Layout from "../../components/administrador/Layout";
 import AreaChar from "../../components/administrador/AreaChar";
 import MultiaxisChar from "../../components/administrador/MultiaxisChar";
 import RatedProductos from "../../components/administrador/RatedProductos";
+import BalanceVentas from "../../components/administrador/BalanceVentas";
 
 function Home() {
   return (
@@ -26,7 +27,7 @@ function Home() {
         </div>
         <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 bg-slate-300 mt-5 rounded p-5 gap-4">
           <div className="bg-slate-50 h-60 rounded">
-            1
+            <BalanceVentas/>
           </div>
           <div className="bg-slate-50 h-60 rounded">2</div>
         </div>
