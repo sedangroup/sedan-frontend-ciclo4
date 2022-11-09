@@ -22,7 +22,7 @@ function Home() {
           <div className=" rounded p-1 bg-slate-50">
             <AreaChar />
           </div>
-          <div className="rounded  bg-slate-50 ">
+          <div className="rounded  bg-slate-50 max-h-44">
             <RatedProductos/>
           </div>
         </div>
@@ -30,7 +30,7 @@ function Home() {
           <div className="bg-slate-200 h-60 rounded">
             <BalanceVentas/>
           </div>
-          <div className="bg-slate-50 h-60 rounded">
+          <div className="bg-slate-200 h-auto md:h-60 rounded flex justify-center items-center p-2">
             <AlertaProducto/>
           </div>
         </div>

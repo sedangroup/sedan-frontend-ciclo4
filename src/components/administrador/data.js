@@ -23,4 +23,5 @@ export const productos = [
       rating: 3.99,
       price:110000,
     },
+
   ];

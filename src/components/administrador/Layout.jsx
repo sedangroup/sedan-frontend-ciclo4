@@ -6,9 +6,9 @@ function Layout({ children }) {
   return (
     <>
       <Header />
-      <div className="flex flex-col h-screen min-w-min md:flex-row lg:flex-row bg-red-400">
+      <div className="flex flex-col h-screen min-w-min md:flex-row lg:flex-row ">
         <Aside />
-        <div className="flex flex-col items-center justify-center w-full h-auto overflow-y-auto bg-gray-50 p-4">
+        <div className="flex flex-col items-center justify-center w-full h-auto overflow-y-auto bg-gray-50 p-4 ">
           {children}
         </div>
       </div>
