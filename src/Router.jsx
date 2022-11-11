@@ -9,7 +9,7 @@ function Router() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login/>}/>
-        
+        <Route path="*" element={<h1>Error 404 not found</h1>}/>
         <Route path="/administrador/">
             <Route path="home" element={<AdminHome/>}/>
             <Route path="graficos" element={<h1>hola sedan</h1>}/>

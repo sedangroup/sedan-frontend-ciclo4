@@ -1,10 +1,10 @@
-import BarChar from "../../components/administrador/BarChar";
+import BarChar from "../../components/administrador/home/BarChar";
 import Layout from "../../components/administrador/Layout";
-import AreaChar from "../../components/administrador/AreaChar";
-import MultiaxisChar from "../../components/administrador/MultiaxisChar";
-import RatedProductos from "../../components/administrador/RatedProductos";
-import BalanceVentas from "../../components/administrador/BalanceVentas";
-import AlertaProducto from "../../components/administrador/AlertaProducto";
+import AreaChar from "../../components/administrador/home/AreaChar";
+import MultiaxisChar from "../../components/administrador/home/MultiaxisChar";
+import RatedProductos from "../../components/administrador/home/RatedProductos";
+import BalanceVentas from "../../components/administrador/home/BalanceVentas";
+import AlertaProducto from "../../components/administrador/home/AlertaProducto";
 
 function Home() {
   return (
