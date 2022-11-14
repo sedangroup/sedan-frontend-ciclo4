@@ -24,4 +24,5 @@ export const productos = [
       price:110000,
     },
 
+ 
   ];

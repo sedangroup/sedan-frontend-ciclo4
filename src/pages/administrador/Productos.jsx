@@ -1,10 +1,11 @@
+import Layout from "../../components/administrador/Layout";
 import ProductosList from "../../components/administrador/productos/ProductosList";
 
 function Productos() {
     return (
-        <div>
+        <Layout>
             <ProductosList/>
-        </div>
+        </Layout>
     )
 }
 
