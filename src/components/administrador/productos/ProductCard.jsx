@@ -7,8 +7,8 @@ function ProductCard(props) {
         src={props.imagen}
         className="w-16 h-full object-contain rounded-full hover:scale-105"
       />
-      <p className="text-md font-semibold truncate w-60">{props.nombre}</p>
-      <p className="text-2xl font-bold">{`$${props.precio.toLocaleString()}`}</p>
+      <p className="text-md font-semibold truncate w-24 md:w-60">{props.nombre}</p>
+      <p className="text-xl font-bold md:text-2xl">{`$${props.precio.toLocaleString()}`}</p>
       <div className="font-bold text-md flex items-center justify-end float-right ml-2">
         <StarRating />
         {props.rating}
